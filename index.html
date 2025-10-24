@@ -1,23 +1,38 @@
 <html dir="ltr" lang="ja">
-  
+  <head>
   <title>
     ootaswebcode
   </title>
-<head>
-  <script>
-var pw;
-pw = prompt("コードを入力して下さい。","");
-if (pw == “810777"){
-location.href = "https://ootas810.github.io/ootasweb810777/";
-}else{
-alert("不明なコード");
-}
+
+ 
+</head>  
+<body>
+ <html dir="ltr" lang="ja">
+  <head>
+  <title>
+    ootaswebcode
+  </title>
+<script type="text/javascript">
+   function gate() {
+      var UserInput = prompt("パスワードを入力して下さい:","");
+      location.href = UserInput + ".html";
+   }
 </script>
+ 
 </head>  
 <body>
   <h1>
-    コードを入力
+    コードを入力　ページ
   </h1>
+  <input type="button" value="パスワードを入力して秘密のページへアクセスする" onclick="gate();">
+</body>
+  
+</html>
+
+  <h1>
+    コードを入力　ページ
+  </h1>
+  <input type="button" value="パスワードを入力して秘密のページへアクセスする" onclick="gate();">
 </body>
   
 </html>
